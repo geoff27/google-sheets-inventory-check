@@ -1,4 +1,5 @@
 <?php 
 // $i is used here to iterate between multiple instances of the "Check" button on one page, for example, if you're looking at a customer's order for three different items, and you want to have an inventory checker button next to each item
+
 echo '<div class="noselect" id="qtyinfodiv_'.$i.'" style="cursor:pointer;">[<a onclick="discoverQty(\''.$the_manufacturer.'\',\''.$the_unique_partnumber.'\',\''.$the_quantity_ordered.'\',\''.$i.'\');">Check</a>]</div>';
 ?>
